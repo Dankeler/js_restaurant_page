@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color:antiquewhite
+}
+
+.topper {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: beige;
+
+}
+
+.topperLi {
+    display: inline-block;
+    list-style: none;
+
+}
+
+.topperUl {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list {
+    flex: 1
+}
+
+.pageBody {
+    text-align: center;
+}
+
+img {
+    max-height: 440px;
+    max-width: 300px;
+}
+
+button {
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+
+.menuItems {
+    list-style: none;
+    margin: 20px ;
+    text-align: center;
+}
